@@ -10,6 +10,8 @@ module Zoom
       get 'phone_users_list', '/phone/users'
 
       get 'call_recordings', '/phone/users/:user_id/recordings'
+
+      get 'phone_numbers', '/phone/numbers'
     end
   end
 end
